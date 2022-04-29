@@ -13,4 +13,4 @@ Contents
 .. toctree::
 
    image_quality_metrics
-   timeseries_quality_metrics
+  
