@@ -1,6 +1,10 @@
-******************
+####################################
 Completeness
-******************
+####################################
+
+*********
+Description
+*********
 
 Measured, stored or recorded data must have all necessary attributes. So-called NaN values result from faulty operations and reduce completeness.
 

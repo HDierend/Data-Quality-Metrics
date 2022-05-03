@@ -1,6 +1,10 @@
-********************
+####################################
 freedom from redundancy
-********************
+####################################
+
+*********
+Description
+*********
 
 There must be no duplicates within the data records.
 
