@@ -36,4 +36,4 @@ Contents
     :caption: Pointcloud quality metrics
     :hidden:
 
-    pointcloud/Blank_PCL
+    pointcloud/Blank_Pointcloud
