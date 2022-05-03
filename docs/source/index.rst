@@ -7,18 +7,17 @@ Data Quality Metrics
 
    This project is under active development.
 
-Image quality metrics
+General quality metrics
 ***************************
 
-Image quality metrics
-***************************
-  
 .. toctree::
     :maxdepth: 2
-    :caption: General quality metrics
+    :caption: Image quality metrics
     :hidden:
 
-    
+Image quality metrics
+***************************
+
   
 .. toctree::
     :maxdepth: 2
