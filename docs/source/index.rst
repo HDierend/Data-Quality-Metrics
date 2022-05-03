@@ -9,8 +9,10 @@ Data Quality Metrics
 
 Contents
 --------
-
-.. toctree::
-
-   image_quality_metrics
   
+.. toctree::
+    :maxdepth: 2
+    :caption: Demo Documentation
+    :hidden:
+
+    image_quality_metrics
