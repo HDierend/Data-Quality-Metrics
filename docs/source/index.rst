@@ -9,6 +9,16 @@ Data Quality Metrics
 
 Image quality metrics
 ***************************
+
+Image quality metrics
+***************************
+  
+.. toctree::
+    :maxdepth: 2
+    :caption: General quality metrics
+    :hidden:
+
+    
   
 .. toctree::
     :maxdepth: 2
@@ -32,13 +42,6 @@ Time series
     :caption: Time series quality metrics
     :hidden:
 
-<<<<<<< HEAD
-   image_quality_metrics
-  
-.. toctree::
-
-   tooling
-=======
     timeseries/Blank_TimeSeries
     
 Pointcloud
@@ -50,4 +53,3 @@ Pointcloud
     :hidden:
 
     pointcloud/Blank_Pointcloud
->>>>>>> 4ff2f0c8aa21c115cfbf60bce1f4c75c443ac19e
