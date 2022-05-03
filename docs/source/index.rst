@@ -14,3 +14,6 @@ Contents
 
    image_quality_metrics
   
+.. toctree::
+
+   Tooling
