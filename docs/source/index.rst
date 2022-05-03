@@ -16,4 +16,4 @@ Contents
   
 .. toctree::
 
-   Tooling
+   tooling
