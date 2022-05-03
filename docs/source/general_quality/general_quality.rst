@@ -12,7 +12,7 @@ Data sets can be reliably described using the following metrics.
 
 
 ********************
-Tools and Libraries
+Libraries
 ********************
 
 Python
