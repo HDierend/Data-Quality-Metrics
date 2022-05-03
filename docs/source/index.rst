@@ -15,6 +15,8 @@ General quality metrics
     :caption: General quality metrics
     :hidden:
 
+    
+
 Image quality metrics
 ***************************
 
