@@ -9,6 +9,16 @@ Data Quality Metrics
 
 Image quality metrics
 ***************************
+
+Image quality metrics
+***************************
+  
+.. toctree::
+    :maxdepth: 2
+    :caption: General quality metrics
+    :hidden:
+
+    
   
 .. toctree::
     :maxdepth: 2
