@@ -12,7 +12,7 @@ General quality metrics
 
 .. toctree::
     :maxdepth: 2
-    :caption: Image quality metrics
+    :caption: General quality metrics
     :hidden:
 
 Image quality metrics
