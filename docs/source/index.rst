@@ -15,7 +15,7 @@ General quality metrics
     :caption: General quality metrics
     :hidden:
 
-    
+    general_quality/general_quality.rst    
 
 Image quality metrics
 ***************************
