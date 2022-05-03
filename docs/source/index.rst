@@ -1,5 +1,5 @@
 Data Quality Metrics
-===================================
+####################################
 
 Data Quality Metrics
 
@@ -7,8 +7,8 @@ Data Quality Metrics
 
    This project is under active development.
 
-Contents
---------
+Image quality metrics
+***************************
   
 .. toctree::
     :maxdepth: 2
@@ -24,6 +24,9 @@ Contents
     image_quality/Universal_Quality_Image_Index
     image_quality/Spatial_Correlation_Coefficient
 
+Time series
+******************
+
 .. toctree::
     :maxdepth: 2
     :caption: Time series quality metrics
@@ -31,6 +34,9 @@ Contents
 
     timeseries/Blank_TimeSeries
     
+Pointcloud
+***************************
+
 .. toctree::
     :maxdepth: 2
     :caption: Pointcloud quality metrics
