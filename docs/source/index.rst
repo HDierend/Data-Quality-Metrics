@@ -11,7 +11,7 @@ General quality metrics
 ***************************
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: General quality metrics
     :hidden:
 
