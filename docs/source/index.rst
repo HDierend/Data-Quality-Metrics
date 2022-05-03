@@ -11,11 +11,24 @@ General quality metrics
 ***************************
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: General quality metrics
     :hidden:
 
-    general_quality/general_quality.rst    
+    general_quality/general_quality
+    general_quality/Completeness 
+    general_quality/Correctness 
+    general_quality/Consistency 
+    general_quality/Reliability 
+    general_quality/Accuracy 
+    general_quality/Timeliness 
+    general_quality/freedom_from_redundancy 
+    general_quality/Relevance 
+    general_quality/Uniformity 
+    general_quality/Uniqueness
+
+
+    
 
 Image quality metrics
 ***************************
