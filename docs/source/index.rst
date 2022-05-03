@@ -29,11 +29,11 @@ Contents
     :caption: Time series quality metrics
     :hidden:
 
-    image_quality/Blank_TimeSeries
+    timeseries/Blank_TimeSeries
     
 .. toctree::
     :maxdepth: 2
     :caption: Pointcloud quality metrics
     :hidden:
 
-    image_quality/Blank_PCL
+    pointcloud/Blank_PCL
