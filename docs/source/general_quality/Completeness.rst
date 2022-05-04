@@ -75,7 +75,7 @@ step is to convert these values into nan values and remove the corresponding row
 
 .. literalinclude:: examples/completeness/completeness_func3.py
 
-For example :literal:`None` and :literal:`0` will be replaced with :literal:`NaN`-Values
+For example :literal:`None` and :literal:`0` will be replaced with :literal:`NaN`-Values.
 
 .. code-block:: pycon
 
@@ -87,10 +87,28 @@ For example :literal:`None` and :literal:`0` will be replaced with :literal:`NaN
           2       NaN      56.0      80.0      35.0
           3      95.0       NaN      98.0       NaN
 
+Rows with :literal:`None` and :literal:`0` will be dropped. A clean dataframe is the result.
 
+.. code-block:: pycon
 
+   In [1]: dataframe.dropna(inplace=True)
 
+   Out[2]: column a  column b  column c  column d
+     1      90.0        45      40.0      12.0
 
+Measure completeness
+----------------------
+
+There are several ways to determine the completeness of a data set. The completeness can refer to individual entries, columns or rows.
+Some trivial functions are now provided for the respective situations.
+
+Calculation of complete dataseries:
+
+.. literalinclude:: examples/completeness/completeness_func4.py
+
+Proportion of missing data
+
+.. literalinclude:: examples/completeness/completeness_func5.py
 
 MATLAB
 =========
