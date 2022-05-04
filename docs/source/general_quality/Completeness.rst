@@ -22,7 +22,7 @@ Working with Missing Data in Pandas
 
 .. literalinclude:: examples/completeness/completeness_func1.py
 
-.. ipython::
+.. code-block:: pycon
 
    In [1]: missing_value_coordinates(dataframe)
 
