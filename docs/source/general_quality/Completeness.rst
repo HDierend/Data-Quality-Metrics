@@ -38,6 +38,22 @@ Output of the function :literal:`missing_value_coordinates()`
 
    Out[2]: (array([0, 0, 2, 3, 3], dtype=int64), array([2, 3, 0, 1, 3], dtype=int64))
 
+To count the number of missing values columnwise you can the following function which is a combination of two functions.
+
+.. literalinclude:: examples/completeness/completeness_func2.py
+
+The output when the example dataframe is used.
+
+.. code-block:: pycon
+
+   In [1]: count_missing_value(dataframe)
+
+   Out[2]: column a    1
+           column b    1
+           column c    1
+           column d    2
+
+
 
 MATLAB
 =========
