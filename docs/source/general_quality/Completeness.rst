@@ -18,9 +18,9 @@ Python
 
 Working with Missing Data in Pandas
 
-.. literalinclude:: general_quality/examples/completeness/completeness_dataframe.py
+.. literalinclude:: examples/completeness/completeness_dataframe.py
 
-.. literalinclude:: general_quality/examples/completeness/completeness_func1.py
+.. literalinclude:: examples/completeness/completeness_func1.py
 
 .. ipython::
 
