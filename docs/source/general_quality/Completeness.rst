@@ -65,7 +65,7 @@ step is to convert these values into nan values and remove the corresponding row
 
 .. literalinclude:: examples/completeness/completeness_func3.py
 
-For example :literal:`None`s and :literal:`0` will be replaced with :literal:`NaN`-Values
+For example :literal:`None` and :literal:`0` will be replaced with :literal:`NaN`-Values
 
 .. code-block:: pycon
 
