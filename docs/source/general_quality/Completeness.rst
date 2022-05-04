@@ -22,7 +22,7 @@ In the following, a simple example and functions will show how data gaps can be 
 Identifying missing data
 -----------------------
 
-Simple dataframe with four columns where :literal:`text`, ''None''- and :literal:`text`, ''NaN''-Values occur.
+Simple dataframe with four columns where :literal:`None`, ''text''- and :literal:`NaN`, ''text''-Values occur.
 
 .. literalinclude:: examples/completeness/completeness_dataframe.py
 
@@ -30,7 +30,7 @@ Following functions can be used to create two arrays with row- and column-coordi
 
 .. literalinclude:: examples/completeness/completeness_func1.py
 
-Output of the function :literal:`text`, ''missing_value_coordinates()''
+Output of the function :literal:`missing_value_coordinates()`, ''text''
 
 .. code-block:: pycon
 
