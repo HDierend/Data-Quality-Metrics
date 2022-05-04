@@ -22,6 +22,12 @@ general_quality/examples/completeness/completeness_dataframe.py
 
 general_quality/examples/completeness/completeness_func1.py
 
+.. ipython::
+
+   In [136]: missing_value_coordinates(dataframe)
+
+   Out[137]: (array([0, 0, 2, 3, 3], dtype=int64), array([2, 3, 0, 1, 3], dtype=int64))
+
 
 MATLAB
 =========
