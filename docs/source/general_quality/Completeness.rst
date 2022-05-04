@@ -32,11 +32,11 @@ The dataframe looks the following:
 
 .. code-block:: pycon
 
-   column a  column b  column c  column d
-0       0.0        30       NaN       NaN
-1      90.0        45      40.0      12.0
-2       NaN        56      80.0      35.0
-3      95.0         0      98.0       NaN
+        column a  column b  column c  column d
+    0       0.0        30       NaN       NaN
+    1      90.0        45      40.0      12.0
+    2       NaN        56      80.0      35.0
+    3      95.0         0      98.0       NaN
 
 .. literalinclude:: examples/completeness/completeness_func1.py
 
