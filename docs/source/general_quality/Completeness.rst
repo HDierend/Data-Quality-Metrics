@@ -30,7 +30,7 @@ Following functions can be used to create two arrays with row- and column-coordi
 
 .. literalinclude:: examples/completeness/completeness_func1.py
 
-Output of the function :literal:`missing_value_coordinates()`, ''text''
+Output of the function :literal:`missing_value_coordinates()`
 
 .. code-block:: pycon
 
