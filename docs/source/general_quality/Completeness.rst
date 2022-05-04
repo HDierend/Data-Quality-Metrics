@@ -16,11 +16,21 @@ Tools and Libraries
 Python
 =========
 
-Working with Missing Data in Pandas
+In order to measure the completeness of a data set, it makes most sense to identify data gaps and, if necessary, to quantify them.
+In the following, a simple example and functions will show how data gaps can be identified.
+
+Identifying missing data
+-----------------------
+
+Simple dataframe with four columns where :literal:`text`, ''None''- and :literal:`text`, ''NaN''-Values occur.
 
 .. literalinclude:: examples/completeness/completeness_dataframe.py
 
+Following functions can be used to create two arrays with row- and column-coordinates of the missing data for later computation.
+
 .. literalinclude:: examples/completeness/completeness_func1.py
+
+Output of the function :literal:`text`, ''missing_value_coordinates()''
 
 .. code-block:: pycon
 
