@@ -1,7 +1,3 @@
-# importing pandas as pd
-import pandas as pd
-
-
 def degree_of_completeness(dataframe):
 
     entrie_count = dataframe.size
