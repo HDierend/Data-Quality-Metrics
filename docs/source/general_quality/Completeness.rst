@@ -54,6 +54,33 @@ The output when the example dataframe is used.
            column d    2
 
 
+Removing missing data
+----------------------
+
+Missing data can be problematic for machine-learning algorithms, for example, because many models cannot handle missing values.
+For this situation, it makes sense to remove rows with missing data.
+
+To do this, several steps must be carried out. The first step is to declare what constitutes a missing datum and the second
+step is to convert these values into nan values and remove the corresponding row.
+
+.. literalinclude:: examples/completeness/completeness_func3.py
+
+For example :literal:`None`s and :literal:`0` will be replaced with :literal:`NaN`-Values
+
+.. code-block:: pycon
+
+   In [1]: replace_missing_value(dataframe, value_types = [str(None), 0])
+
+   Out[2]:      column a  column b  column c  column d
+          0       NaN      30.0       NaN       NaN
+          1      90.0      45.0      40.0      12.0
+          2       NaN      56.0      80.0      35.0
+          3      95.0       NaN      98.0       NaN
+
+
+
+
+
 
 MATLAB
 =========

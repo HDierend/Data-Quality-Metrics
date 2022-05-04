@@ -6,10 +6,10 @@ import numpy as np
 
 # dictionary of lists
 dict = {
-    "column a": [100, 90, np.nan, 95],
-    "column b": [30, 45, 56, None],
+    "column a": [0, 90, np.nan, 95],
+    "column b": [30, 45, 56, 0],
     "column c": [np.nan, 40, 80, 98],
-    "column d": [np.nan, 40, 80, None],
+    "column d": [np.nan, 12, 35, None],
 }
 
 # creating a dataframe from list
