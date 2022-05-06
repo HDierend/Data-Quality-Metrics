@@ -29,6 +29,7 @@ Example
 Images from a traffic surveillance camera in Germany is used to show the SSIM results.
 
 Reference Image
+
 .. image:: examples/Reference_Image.png
   :width: 640
  
@@ -41,6 +42,7 @@ Dark image with SSIM Map. The global SSIM score is 0.48.
   :width: 640
   
 Image with shining sun and the corresponding SSIM Map. The global SSIM score is 0.778.
+
 .. image:: examples/Image_Sunshine.png
   :width: 640
   
