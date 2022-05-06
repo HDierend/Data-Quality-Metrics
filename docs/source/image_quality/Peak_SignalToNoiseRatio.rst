@@ -31,16 +31,19 @@ Example
 An image from a traffic surveillance camera in Germany is used to show the PSNR results.
 
 Reference Image
+
 .. image:: examples/Reference_Image.png
   :width: 640
  
 
 PSNR of 2075.3
+
 .. image:: examples/Image_Dark.png
   :width: 640
   
 
 PSNR of 917.8
+
 .. image:: examples/Image_Sunshine.png
   :width: 640
 
@@ -59,11 +62,17 @@ Install package:
 Calculate PSNR:
 ::
   from sewar.full_ref import psnr
-  from PIL import Image
+  import cv2
 
-  img1 = Image.open('Reference_Image.png')
-  img2 = Image.open('Image_Dark.png')
-  psnr(img1,img2) 
+  img_ref = cv2.imread('Reference_Image.png')
+  img_dark = cv2.imread('Image_Dark.png')
+  img_sun= cv2.imread('Image_Sunshine.png')
+
+  score_dark = psnr(img_ref,img_dark)
+  print("Score of dark image", score_dark)
+
+  score_sun = psnr(img_ref,img_sun)
+  print("Score of dark image", score_sun)
   
 
 MATLAB
