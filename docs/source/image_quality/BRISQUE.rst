@@ -26,17 +26,17 @@ Example
 ******************
 Images from a traffic surveillance camera in Germany is used to show the BRISQUE results.
 
-Reference Image
+Standard image with BRISQUE score 48.74
 
 .. image:: examples/Reference_Image.png
   :width: 640
  
-Dark image with BRISQUE score 
+Dark image with BRISQUE score 48.17
 
 .. image:: examples/Image_Dark.png
   :width: 640
   
-Dark image with BRISQUE score 
+Dark image with BRISQUE score 51.60
 
 .. image:: examples/Image_Sunshine.png
   :width: 640
