@@ -57,7 +57,7 @@ Install package:
 :: 
   pip install sewar
 
-Calculate MSE:
+Calculate MS-SSIM:
 ::
   from sewar.full_ref import msssim
   from PIL import Image
