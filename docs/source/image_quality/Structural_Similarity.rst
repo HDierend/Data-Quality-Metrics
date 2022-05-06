@@ -50,6 +50,7 @@ Image with shining sun and the corresponding SSIM Map. The global SSIM score is 
   :width: 640
 
 Dark areas in the SSIM Map describe low SSIM values. The smaller der SSIM values the greater the difference between the pixels. As you can see by moving objects (cars, trucks) which differ between the images.
+
 ********************
 Tools and Libraries
 ********************
