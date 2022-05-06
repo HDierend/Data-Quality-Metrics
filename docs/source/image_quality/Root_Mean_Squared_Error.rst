@@ -29,16 +29,19 @@ Example
 An image from a traffic surveillance camera in Germany is used to show the RMSE results.
 
 Reference Image
+
 .. image:: examples/Reference_Image.png
   :width: 640
  
 
 RMSE of 45.6
+
 .. image:: examples/Image_Dark.png
   :width: 640
   
 
 RMSE of 30.3
+
 .. image:: examples/Image_Sunshine.png
   :width: 640
 
