@@ -40,7 +40,7 @@ An image from a traffic surveillance camera in Germany is used to show the MSE r
   :width: 400
   :alt: MSE of 2075.3
   
-.. image:: examples/Image_Sun.png
+.. image:: examples/Image_Sunshine.png
   :width: 400
   :alt: MSE of 917.8
 
