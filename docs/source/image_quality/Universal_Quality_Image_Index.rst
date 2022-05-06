@@ -19,7 +19,7 @@ The UQI has a range from 0 to 1. An image with a UQI of 1 has a high quality. An
 *********
 Limits
 *********
-UQI is simple to calculate but might not align well with the human perception of quality.
+UQI is simple to calculate and align well with the human perception of quality.
 
 Only images showing the same scene should be compared. 
 
