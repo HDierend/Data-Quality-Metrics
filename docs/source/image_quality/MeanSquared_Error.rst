@@ -53,7 +53,7 @@ Python
 
 MATLAB
 =========
-Within the MATLAB Image Processing Toolbox a function for calcuation the MSE exists:
+Within the MATLAB Image Processing Toolbox a function to calculate the MSE exists:
 ::
   ref = imread('Reference_Image.png');
   dark = imread('Image_Dark.png');
