@@ -70,15 +70,15 @@ MATLAB
 =========
 Within the MATLAB Image Processing Toolbox a function to calculate the PSNR exists:
 ::
-ref = imread('Reference_Image.png');
-dark = imread('Image_Dark.png');
-sun = imread('Image_Sunshine.png');
+  ref = imread('Reference_Image.png');
+  dark = imread('Image_Dark.png');
+  sun = imread('Image_Sunshine.png');
 
-PSNR_dark = psnr(dark, ref);
-fprintf('The PSNR for the dark image is %0.4f\n', PSNR_dark);
+  PSNR_dark = psnr(dark, ref);
+  fprintf('The PSNR for the dark image is %0.4f\n', PSNR_dark);
 
-PSNR_sun = psnr(sun, ref);
-fprintf('The PSNR for the sun image is %0.4f\n', PSNR_sun);
+  PSNR_sun = psnr(sun, ref);
+  fprintf('The PSNR for the sun image is %0.4f\n', PSNR_sun);
 
 
 A detailed description can be found at the `Mathworks Website <https://de.mathworks.com/help/images/ref/psnr.html>`_. For an RGB image the PSNR for each channel is calculated and the average of all channel PSNRs is the PSNR of the image. It is also possible to only calculate the PSNR for one channel:
@@ -117,7 +117,7 @@ OpenCV contains a class for calculating the PSNR. A detailed description can be 
     cv::Mat img_dark = cv::imread(image_path, cv::IMREAD_COLOR);
   
     
-    cv::quality::QualityMSE::QualityPSNR PSNR_ref(img_ref);
+    cv::quality::QualityPSNR PSNR_ref(img_ref);
 
     cv::Scalar PSNR;
     PSNR = PSNR_ref.compute(img_dark);
