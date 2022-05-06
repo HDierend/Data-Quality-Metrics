@@ -29,16 +29,19 @@ Example
 An image from a traffic surveillance camera in Germany is used to show the UQI results.
 
 Reference Image
+
 .. image:: examples/Reference_Image.png
   :width: 640
  
 
 UQI of 0.593
+
 .. image:: examples/Image_Dark.png
   :width: 640
   
 
 UQI of 0.837
+
 .. image:: examples/Image_Sunshine.png
   :width: 640
 
