@@ -32,15 +32,15 @@ Example
 ******************
 An image from a traffic surveillance camera in Germany is used to show the MSE results.
 
-.. image:: example_images/Reference_Image.png
+.. image:: examples/Reference_Image.png
   :width: 400
   :alt: Reference Image
 
-.. image:: example_images/Image_Dark.png
+.. image:: examples/Image_Dark.png
   :width: 400
   :alt: MSE of 2075.3
   
-.. image:: example_images/Image_Sun.png
+.. image:: examples/Image_Sun.png
   :width: 400
   :alt: MSE of 917.8
 
@@ -86,7 +86,7 @@ If access to the MATLAB Image Processing Toolbox is denied, one can program the 
 
 C++
 =========
-OpenCV contains a class for calculating the MSE. A detailed description can be found in the `OpenCV Doxs<https://docs.opencv.org/4.x/d7/d80/classcv_1_1quality_1_1QualityMSE.html#a82ba740a06f48562a08517079712218c>`_. 
+OpenCV contains a class for calculating the MSE. A detailed description can be found in the `OpenCV Docs <https://docs.opencv.org/4.x/d7/d80/classcv_1_1quality_1_1QualityMSE.html#a82ba740a06f48562a08517079712218c>`_. 
 
 ********************
 Literature
