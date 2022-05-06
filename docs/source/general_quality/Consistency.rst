@@ -10,7 +10,6 @@ Data are inconsistent if different valid states are not compatible with each oth
 
 Consistency is for measuring if two data values derived by different sets aren't conflicting with each other.
 The percent of values that match across various records is a common data quality metric for consistency.
-Timelines help to measure the accuracy of data at a specific period
 
 Consistency refers primarily to the use of data by different users.
 Examples of consistent data usually refer to data formats and data types that should be identical throughout in order to maintain a required level of data quality.
@@ -29,11 +28,30 @@ Tools and Libraries
 
 Python
 =========
+Standard deviation is absolute measure of dispersion.
+
+.. note::
+    
+Quote: However one could find which series is more consistent than other by coefficient of variation,
+that is relative measure of dispersion based on standard deviation multiplied by 100.
+
+We can calculate consistency using standard deviation and mean of the given date:
+
+.. note::
+
+   Code Snipped comming soon.
+
+The data having lower coefficient of Variation is more consistent and vice - versa.
 
 
-
-Checking for inconsistent datatypes/units
+Checking for inconsistent datatypes
 -----------------------------------------
+
+
+.. note::
+
+   Code Snipped comming soon.
+
 
 
 
