@@ -33,16 +33,19 @@ Example
 An image from a traffic surveillance camera in Germany is used to show the MSE results.
 
 .. image:: examples/Reference_Image.png
-  :width: 400
-  :alt: Reference Image
+  :width: 640
+ 
+Reference Image
 
 .. image:: examples/Image_Dark.png
-  :width: 400
-  :alt: MSE of 2075.3
+  :width: 640
+  
+MSE of 2075.3
   
 .. image:: examples/Image_Sunshine.png
-  :width: 400
-  :alt: MSE of 917.8
+  :width: 640
+
+MSE of 917.8
 
 ********************
 Tools and Libraries
