@@ -32,20 +32,19 @@ Example
 ******************
 An image from a traffic surveillance camera in Germany is used to show the MSE results.
 
+Reference Image
 .. image:: examples/Reference_Image.png
   :width: 640
  
-Reference Image
 
+MSE of 2075.3
 .. image:: examples/Image_Dark.png
   :width: 640
   
-MSE of 2075.3
-  
-.. image:: examples/Image_Sunshine.png
-  :width: 640
 
 MSE of 917.8
+.. image:: examples/Image_Sunshine.png
+  :width: 640
 
 ********************
 Tools and Libraries
@@ -53,6 +52,19 @@ Tools and Libraries
 
 Python
 =========
+In Python the package **sewar** contains multiple image quality metrics. One of them is the MSE.
+
+Install package:: pip install sewar
+
+Calculate MSE:
+::
+  from sewar.full_ref import mse
+  from PIL import Image
+
+  img1 = Image.open('Reference_Image.png')
+  img2 = Image.open('Image_Dark.png')
+  mse(img1,img2) 
+  
 
 MATLAB
 =========
@@ -89,8 +101,28 @@ If access to the MATLAB Image Processing Toolbox is denied, one can program the 
 
 C++
 =========
-OpenCV contains a class for calculating the MSE. A detailed description can be found in the `OpenCV Docs <https://docs.opencv.org/4.x/d7/d80/classcv_1_1quality_1_1QualityMSE.html#a82ba740a06f48562a08517079712218c>`_. 
+OpenCV contains a class for calculating the MSE. A detailed description can be found in the `OpenCV Docs <https://docs.opencv.org/4.x/d7/d80/classcv_1_1quality_1_1QualityMSE.html#a82ba740a06f48562a08517079712218c>`_:
+::
+  #include <opencv2/quality/qualitymse.hpp>
+  #include <iostream>
 
+  int main()
+  {
+    std::string image_path = samples::findFile("Reference_Image.png");
+    cv::Mat img_ref = cv::imread(image_path, cv::IMREAD_COLOR);
+    std::string image_path = samples::findFile("Image_Dark.png");
+    cv::Mat img_dark = cv::imread(image_path, cv::IMREAD_COLOR);
+  
+    
+    cv::quality::QualityMSE::QualityMSE MSE_ref(img_ref);
+
+    cv::Scalar MSE;
+    MSE = MSE_ref.compute(img_dark);
+  }
+  
 ********************
 Literature
 ********************
+https://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/VELDHUIZEN/node18.html 
+
+https://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/VELDHUIZEN/node18.html
