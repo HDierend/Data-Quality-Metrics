@@ -54,7 +54,9 @@ Python
 =========
 In Python the package **sewar** contains multiple image quality metrics. One of them is the MSE.
 
-Install package:: pip install sewar
+Install package:
+:: 
+  pip install sewar
 
 Calculate MSE:
 ::
