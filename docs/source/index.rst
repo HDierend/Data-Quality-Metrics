@@ -9,8 +9,11 @@ Data Quality Metrics
    
    
 In the future:
+
 1. Dataset quality metrics
+
 2. Model quality metrics
+
 3. FAIR quality metrics
 
 Image quality metrics
