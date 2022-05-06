@@ -31,16 +31,19 @@ Example
 An image from a traffic surveillance camera in Germany is used to show the PSNR results.
 
 Reference Image
+
 .. image:: examples/Reference_Image.png
   :width: 640
  
 
 PSNR of 2075.3
+
 .. image:: examples/Image_Dark.png
   :width: 640
   
 
 PSNR of 917.8
+
 .. image:: examples/Image_Sunshine.png
   :width: 640
 
