@@ -2,7 +2,7 @@
 Universal Quality Image Index
 #################################################
 
-No-Reference Quality Metrics
+Full-Reference Quality Metrics
 
 *********
 Description
