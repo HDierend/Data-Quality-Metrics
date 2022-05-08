@@ -106,7 +106,7 @@ Calculation of complete dataseries:
 
 .. literalinclude:: examples/completeness/completeness_func4.py
 
-Proportion of missing data
+Proportion of missing data:
 
 .. literalinclude:: examples/completeness/completeness_func5.py
 
