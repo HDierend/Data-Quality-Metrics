@@ -32,8 +32,8 @@ Standard deviation is absolute measure of dispersion.
 
 .. note::
     
-Quote: However one could find which series is more consistent than other by coefficient of variation,
-that is relative measure of dispersion based on standard deviation multiplied by 100.
+   Quote: However one could find which series is more consistent than other by coefficient of variation,
+   that is relative measure of dispersion based on standard deviation multiplied by 100.
 
 We can calculate consistency using standard deviation and mean of the given date:
 
