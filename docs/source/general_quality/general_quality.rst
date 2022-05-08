@@ -10,6 +10,16 @@ These metrics are used to assess how useful or relevant large data sets or colle
 
 Data sets can be reliably described using the following metrics.
 
+   * Completeness
+   * Consistency
+   * Correctness 
+   * Accuracy
+   * Comprehensibility
+   * Relevance
+   * Reliability
+   * Timeliness
+   * Validity
+
 
 ********************
 Libraries
