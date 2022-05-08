@@ -56,8 +56,9 @@ Image quality metrics
     image_quality/MultiScale_Structural_Similarity
     image_quality/Universal_Quality_Image_Index
     image_quality/Spatial_Correlation_Coefficient
-    image_quality/NIQE
     image_quality/BRISQUE
+    image_quality/NIQE
+    image_quality/PIQE
     
 
 Time series
