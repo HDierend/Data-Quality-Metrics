@@ -79,4 +79,4 @@ Pointcloud
     :caption: Pointcloud quality metrics
     :hidden:
 
-    pointcloud/Blank_Pointcloud
+    pointcloud/Point_To_Plane_PCL
