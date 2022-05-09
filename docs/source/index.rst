@@ -69,7 +69,7 @@ Time series
     :caption: Time series quality metrics
     :hidden:
 
-    timeseries/Blank_TimeSeries
+    
     
 Pointcloud
 ***************************
