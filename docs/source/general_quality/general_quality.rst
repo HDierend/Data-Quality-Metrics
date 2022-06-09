@@ -11,14 +11,16 @@ These metrics are used to assess how useful or relevant large data sets or colle
 Data sets can be reliably described using the following metrics.
 
    * `Completeness <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Completeness.html>`_
-   * `Consistency <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Consistency.html>_` 
+   * Unambiguous
    * `Correctness <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Correctness.html>`_
-   * `Accuracy <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Accuracy.html#>_` 
+   * `Timeliness <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Timeliness.html#>`_
+   * `Accuracy <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Accuracy.html#>`_ 
+   * `Consistency <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Consistency.html>`_
+   * `freedom_from_redundancy <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/freedom_from_redundancy.html>`_
+   * `Relevance <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Relevance.html>`_ 
+   * `Uniformity <>`_
+   * `Reliability <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Reliability.html>`_ 
    * Comprehensibility
-   * `Relevance <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Relevance.html#>_` 
-   * `Reliability <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Reliability.html#>_` 
-   * `Timeliness <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Timeliness.html#>_` 
-   * Validity
 
 
 ********************

@@ -16,17 +16,19 @@ General quality metrics
     :hidden:
 
     general_quality/general_quality
-    general_quality/Completeness 
-    general_quality/Correctness 
-    general_quality/Consistency 
-    general_quality/Reliability 
-    general_quality/Accuracy 
-    general_quality/Timeliness 
-    general_quality/freedom_from_redundancy 
-    general_quality/Relevance 
-    general_quality/Uniformity 
-    general_quality/Uniqueness
-
+    general_quality/0_Completeness 
+    general_quality/01_Unambiguous
+    general_quality/02_Correctness 
+    general_quality/03_Timeliness 
+    general_quality/04_Accuracy 
+    general_quality/05_Consistency 
+    general_quality/06_freedom_from_redundancy
+    general_quality/07_Relevance 
+    general_quality/08_Uniformity 
+    general_quality/09_Reliability 
+    general_quality/10_Comprehensibility 
+     
+    
 
     
 
