@@ -18,9 +18,9 @@ Data sets can be reliably described using the following metrics.
    * `Consistency <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Consistency.html>`_
    * `freedom_from_redundancy <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/freedom_from_redundancy.html>`_
    * `Relevance <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Relevance.html>`_ 
-   * `Uniformity <>`_
+   * `Uniformity <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/08_Uniformity.html>`_
    * `Reliability <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/Reliability.html>`_ 
-   * Comprehensibility
+   * `Comprehensibility <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/10_Comprehensibility.html>`_
 
 
 ********************
