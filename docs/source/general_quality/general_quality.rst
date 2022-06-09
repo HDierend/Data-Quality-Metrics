@@ -2,6 +2,10 @@
 General quality metrics
 ####################################
 
+.. note::
+
+    Note: Last update 2022_09_06
+
 ******************
 General
 ******************
@@ -22,6 +26,18 @@ Data sets can be reliably described using the following metrics.
    * `Reliability <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/09_Reliability.html>`_ 
    * `Comprehensibility <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/10_Comprehensibility.html>`_
 
+Of these eleven criteria, all are used in the rarest cases. Which criteria 
+are used depends on the data set and the purpose of the data.
+Experience shows that the first six criteria are used for data analysis.
+
+******************
+Datasets
+******************
+
+To test the individual quality metrics, the internet provides free data sets. These data sets can be downloaded from the following link.
+The programming and analysis examples should largely refer to these data.
+
+`Link to datasets <https://towardsdatascience.com/all-the-datasets-you-need-to-practice-data-science-skills-and-make-a-great-portfolio-74f2eb53b38a>`_
 
 ********************
 Libraries

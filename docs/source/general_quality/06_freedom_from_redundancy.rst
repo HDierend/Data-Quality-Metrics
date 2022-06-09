@@ -1,5 +1,5 @@
 ####################################
-freedom from redundancy
+Freedom from redundancy
 ####################################
 
 *********
