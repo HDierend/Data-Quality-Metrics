@@ -10,7 +10,7 @@ These metrics are used to assess how useful or relevant large data sets or colle
 
 Data sets can be reliably described using the following metrics.
 
-   * Completeness
+   * 'Completeness <https://data-quality-metrics.readthedocs.io/en/latest/general_quality/Completeness.html>'_
    * Consistency
    * Correctness 
    * Accuracy
