@@ -27,6 +27,14 @@ Python provides several methods to easily identifying outliers and statistical a
 Find outliers in a given dataframe 
 ----------------------------------
 
+The following data set contains sensor data from measuring stations at various beaches. 
+For example, water temperature, wave size and wave period were recorded.
+
+
+
+.. image:: general_quality/images/Figure_1.png
+   :width: 600
+
 
 .. note::
 
