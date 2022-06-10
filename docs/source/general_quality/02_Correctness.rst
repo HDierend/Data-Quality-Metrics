@@ -33,7 +33,7 @@ For example, water temperature, wave size and wave period were recorded. To load
 .. literalinclude:: examples/correctness/correctness_dataframe.py
 
 .. image:: images/Figure_1.png
-   :width: 600
+   :width: 800
 
 For Normal distributions: Use empirical relations of Normal distribution. The data points which fall below mean-3*(sigma) or above mean+3*(sigma) are outliers.
 Where mean and sigma are the average value and standard deviation of a particular column.
@@ -49,7 +49,13 @@ In this case, data that is far from 99% quantile is considered as outlier. So th
             Lowest allowed 9.292662947927571
 
 
+Using the limitation created using mean and a multiplication of the standard deviation you can clean and plot the cleaned dataframe.
 
+.. literalinclude:: examples/correctness/correctness_dataframe2.py
+
+
+.. image:: images/Figure_2.png
+   :width: 800
 
 Visualize outliers
 ------------------

@@ -1,0 +1,19 @@
+# import pandas
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# load dataset
+df = pd.read_csv(r"C:/Users/Goerner/Desktop/beachwater.csv", delimiter=";")
+
+
+df[(df["Water Temperature"] > 29.43) | (df["Water Temperature"] < 9.29)]
+
+new_df = df[(df["Water Temperature"] < 29.43) & (df["Water Temperature"] > 9.29)]
+
+
+plt.figure(figsize=(16, 5))
+plt.subplot(1, 1, 1)
+sns.distplot(new_df["Water Temperature"])
+plt.show()
