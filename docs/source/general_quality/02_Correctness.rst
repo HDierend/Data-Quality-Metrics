@@ -32,7 +32,7 @@ For example, water temperature, wave size and wave period were recorded.
 
 
 
-.. image:: code\NFDI4ING\qualitymetrics\Data-Quality-Metrics\docs\source\general_quality\images\Figure_1.png
+.. image:: images\Figure_1.png
    :width: 600
 
 
