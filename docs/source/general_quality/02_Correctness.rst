@@ -32,7 +32,7 @@ For example, water temperature, wave size and wave period were recorded.
 
 
 
-.. image:: images\Figure_1.png
+.. image:: images/Figure_1.png
    :width: 600
 
 
