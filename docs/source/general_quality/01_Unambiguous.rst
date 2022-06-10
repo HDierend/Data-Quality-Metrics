@@ -23,6 +23,16 @@ To check if rows occur multiple time you can use this code snippet which will ch
 
 .. literalinclude:: examples/completeness/unambiguous_func1.py
 
+If used on the preloaded dataframe:literal
+
+.. code-block:: pycon
+
+   In [1]:  find_ambiguous_sets(dataframe, list_of_columns=None)
+
+   Out[2]:  ID  Year_Birth   Education Marital_Status   Income  ...  AcceptedCmp2  Complain Z_CostContact  Z_Revenue  Response
+            89   3033        1963      Master       Together  38620.0  ...             0         0             3         11         0
+            131  4646        1951    2n Cycle        Married  78497.0  ...             0         0             3         11         0
+            197   326        1973  Graduation        Married  51148.0  ...             0         0             3         11         0
 
 
 MATLAB
