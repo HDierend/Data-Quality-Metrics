@@ -28,17 +28,28 @@ Find outliers in a given dataframe
 ----------------------------------
 
 The following data set contains sensor data from measuring stations at various beaches. 
-For example, water temperature, wave size and wave period were recorded.
+For example, water temperature, wave size and wave period were recorded. To load dataset and plot the distribution of the water temperature use the following snippet.
 
-
+.. literalinclude:: examples/correctness/correctness_dataframe.py
 
 .. image:: images/Figure_1.png
    :width: 600
 
+For Normal distributions: Use empirical relations of Normal distribution. The data points which fall below mean-3*(sigma) or above mean+3*(sigma) are outliers.
+Where mean and sigma are the average value and standard deviation of a particular column.
 
-.. note::
+In this case, data that is far from 99% quantile is considered as outlier. So the first step is to calculate the maximum and minimum temperature.
 
-   Code Snipped comming soon.
+.. code-block:: pycon
+
+   In [1]:  "Highest allowed", df["Water Temperature"].mean() + 3 * df["Water Temperature"].std()
+            "Lowest allowed", df["Water Temperature"].mean() - 3 * df["Water Temperature"].std()
+
+   Out[2]:  Highest allowed 29.434111975462184
+            Lowest allowed 9.292662947927571
+
+
+
 
 Visualize outliers
 ------------------
