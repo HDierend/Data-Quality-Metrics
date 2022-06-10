@@ -21,7 +21,7 @@ It returns a Boolean Series with True value for each duplicated row.
 
 To check if rows occur multiple time you can use this code snippet which will check if an row is identical to a provious row.
 
-.. literalinclude:: examples/completeness/unambiguous_func1.py
+.. literalinclude:: examples/unambiguous/unambiguous_func1.py
 
 If used on the preloaded dataframe the function shows that three rows are duplicates. With the list_of_columns-Parameter
 you can subset the columns to find duplicated column values. The more values there are that more ambiguous a dateset can be.
@@ -38,9 +38,7 @@ you can subset the columns to find duplicated column values. The more values the
 Measure unambiguous
 ----------------------
 
-
-
-.. literalinclude:: examples/completeness/unambiguous_func2.py
+.. literalinclude:: examples/unambiguous/unambiguous_func2.py
 
 .. code-block:: pycon
 
