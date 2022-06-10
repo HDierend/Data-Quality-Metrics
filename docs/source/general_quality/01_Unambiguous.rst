@@ -23,7 +23,8 @@ To check if rows occur multiple time you can use this code snippet which will ch
 
 .. literalinclude:: examples/completeness/unambiguous_func1.py
 
-If used on the preloaded dataframe:literal
+If used on the preloaded dataframe the function shows that three rows are duplicates. With the list_of_columns-Parameter
+you can subset the columns to find duplicated column values. The more values there are that more ambiguous a dateset can be.
 
 .. code-block:: pycon
 
@@ -33,6 +34,20 @@ If used on the preloaded dataframe:literal
             89   3033        1963      Master       Together  38620.0  ...             0         0             3         11         0
             131  4646        1951    2n Cycle        Married  78497.0  ...             0         0             3         11         0
             197   326        1973  Graduation        Married  51148.0  ...             0         0             3         11         0
+
+Measure unambiguous
+----------------------
+
+
+
+.. literalinclude:: examples/completeness/unambiguous_func2.py
+
+.. code-block:: pycon
+
+   In [1]:  degree_of_unambiguous(df)
+
+   Out[2]:  99.86625055728935
+
 
 
 MATLAB
