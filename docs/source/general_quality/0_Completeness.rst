@@ -22,7 +22,8 @@ In the following, a simple example and functions will show how data gaps can be 
 Identifying missing data
 -----------------------
 
-Simple dataframe with four columns where :literal:`None`- and :literal:`NaN`-Values occur.
+Simple dataframe with four columns where :literal:`None`- and :literal:`np.nan`-Values occur. 
+That values occur in the formats mentioned is not always the case. How to identify  and quantify completely empty cells can be read here <link>.
 
 .. literalinclude:: examples/completeness/completeness_dataframe.py
 
@@ -52,7 +53,7 @@ To count the number of missing values columnwise you can the following function 
 
 .. literalinclude:: examples/completeness/completeness_func2.py
 
-The output when the example dataframe is used.
+The output when the example dataframe is used. Now you can see in which column and how values are missing.
 
 .. code-block:: pycon
 
@@ -63,6 +64,40 @@ The output when the example dataframe is used.
            column c    1
            column d    2
 
+
+Sometimes one works with data sets in which values are missing from the outset
+and these are not easily visible as in the last example. 
+This can be investigated using an open source marketing data set. 
+
+.. code-block:: pycon
+
+   In [1]:  df = pd.read_csv(
+            r"C:/Users/Goerner/Desktop/Datasets/marketing_campaign.csv", delimiter="\t"
+            )
+
+            df.iloc[10,:7]
+
+   Out[2]:  ID                      1994
+            Year_Birth              1983
+            Education         Graduation
+            Marital_Status       Married
+            Income                   NaN
+            Kidhome                    1
+            Teenhome                   0
+
+In this example the output when counted nan-values for the first seven columns will be:
+
+.. code-block:: pycon
+
+   In [1]: count_missing_value(dataframe.iloc[:,:7])
+
+   Out[2]:  ID                 0
+            Year_Birth         0
+            Education          0
+            Marital_Status     0
+            Income            24
+            Kidhome            0
+            Teenhome           0
 
 Removing missing data
 ----------------------
@@ -109,6 +144,8 @@ Calculation of complete dataseries:
 Proportion of missing data:
 
 .. literalinclude:: examples/completeness/completeness_func5.py
+
+
 
 MATLAB
 =========

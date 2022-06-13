@@ -2,6 +2,10 @@
 General quality metrics
 ####################################
 
+.. note::
+
+    Note: Last update 2022_09_06
+
 ******************
 General
 ******************
@@ -10,16 +14,30 @@ These metrics are used to assess how useful or relevant large data sets or colle
 
 Data sets can be reliably described using the following metrics.
 
-   * Completeness
-   * Consistency
-   * Correctness 
-   * Accuracy
-   * Comprehensibility
-   * Relevance
-   * Reliability
-   * Timeliness
-   * Validity
+   * `Completeness <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/0_Completeness.html>`_
+   * `Unambiguous <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/01_Unambiguous.html>`_
+   * `Correctness <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/02_Correctness.html>`_
+   * `Timeliness <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/03_Timeliness.html>`_
+   * `Accuracy <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/04_Accuracy.html>`_ 
+   * `Consistency <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/05_Consistency.html>`_
+   * `freedom_from_redundancy <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/06_freedom_from_redundancy.html>`_
+   * `Relevance <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/07_Relevance.html>`_ 
+   * `Uniformity <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/08_Uniformity.html>`_
+   * `Reliability <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/09_Reliability.html>`_ 
+   * `Comprehensibility <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/10_Comprehensibility.html>`_
 
+Of these eleven criteria, all are used in the rarest cases. Which criteria 
+are used depends on the data set and the purpose of the data.
+Experience shows that the first six criteria are used for data analysis.
+
+******************
+Datasets
+******************
+
+To test the individual quality metrics, the internet provides free data sets. These data sets can be downloaded from the following link.
+The programming and analysis examples should largely refer to these data.
+
+`Link to datasets <https://towardsdatascience.com/all-the-datasets-you-need-to-practice-data-science-skills-and-make-a-great-portfolio-74f2eb53b38a>`_
 
 ********************
 Libraries
