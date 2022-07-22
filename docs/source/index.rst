@@ -7,7 +7,8 @@ Data Quality Metrics
 
    This project is under active development.
 
-:ref:`.. General Overview:`
+:ref:`RST Overview`
+
 
 .. toctree::
     :maxdepth: 2
