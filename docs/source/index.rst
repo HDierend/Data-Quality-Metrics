@@ -7,7 +7,7 @@ Data Quality Metrics
 
    This project is under active development.
 
-:ref:`General quality metrics<general_quality/general_quality>`
+:ref:`general_quality/general_quality<Heading Text>`
 ***************************
 
 .. toctree::
