@@ -38,13 +38,18 @@ you can subset the columns to find duplicated column values. The more values the
 Measure unambiguous
 ----------------------
 
+Since the pure number of duplicated columns has little significance, the following function can be used to determine the degree of uniqueness.
+Since only three entries are duplicated, the degree is almost one.
+
 .. literalinclude:: examples/unambiguous/unambiguous_func2.py
+
 
 .. code-block:: pycon
 
    In [1]:  degree_of_unambiguous(df)
 
    Out[2]:  99.86625055728935
+
 
 
 
