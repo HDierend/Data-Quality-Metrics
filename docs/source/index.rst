@@ -7,7 +7,8 @@ Data Quality Metrics
 
    This project is under active development.
 
-:ref:`RST Overview`
+:ref:`General quality metrics`
+***************************
 
 
 .. toctree::

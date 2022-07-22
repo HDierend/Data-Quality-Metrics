@@ -1,4 +1,4 @@
-.. _RST Overview:
+.. _General quality metrics:
 
 ####################################
 General quality metrics
