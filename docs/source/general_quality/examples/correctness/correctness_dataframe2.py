@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # load dataset
-df = pd.read_csv(r"C:/Users/Goerner/Desktop/beachwater.csv", delimiter=";")
+df = pd.read_csv(r"C:/Users/Datasets/beachwater.csv", delimiter=";")
 
 
 df[(df["Water Temperature"] > 29.43) | (df["Water Temperature"] < 9.29)]

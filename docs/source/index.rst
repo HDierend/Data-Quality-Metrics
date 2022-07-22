@@ -16,8 +16,9 @@ In the future:
 
 3. FAIR quality metrics
 
-General quality metrics
+:ref:`General quality metrics`
 ***************************
+
 
 .. toctree::
     :maxdepth: 2
