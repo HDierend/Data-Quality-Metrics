@@ -1,3 +1,5 @@
+.. _General quality metrics:
+
 ####################################
 General quality metrics
 ####################################
