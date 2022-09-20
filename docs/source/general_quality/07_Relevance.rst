@@ -18,6 +18,11 @@ Tools and Libraries
 Python
 =========
 
+Load the needed dataset as showed in the following code snippet:
+
+.. literalinclude:: examples/relevance/relevance1.py
+
+
 MATLAB
 =========
 

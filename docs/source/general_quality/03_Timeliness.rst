@@ -40,6 +40,7 @@ To check the metadata we need to import the packages os (Operationsystem) and ti
 
 .. literalinclude:: examples/timeliness/func1.py
 
+A better way to measure the timeliness of data is to look at parts of the dataset and compare real-time data. 
 
 
 MATLAB
