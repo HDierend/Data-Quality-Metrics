@@ -1,5 +1,5 @@
 ####################################
-Timeliness
+Timeliness and Punctuality
 ####################################
 
 *********
@@ -15,6 +15,10 @@ Data that may have been up to date last month could be useless now.
 For example, machine learning models trained on old datasets can produce erroneous results or
 lead researchers to incorrect conclusions.
 
+To measure timeliness, you may take a small sample of “golden records” for which you have the current value.
+
+
+
 ********************
 Tools and Libraries
 ********************
@@ -27,6 +31,14 @@ This information can usually be obtained from the metadata.
 
 Python
 =========
+
+Whether a file is up-to-date can be defined in several ways.
+On the one hand, the date of creation of the file can be a more or less good indicator. 
+To be able to check the actuality better, data from the file should be compared with data from the real world. If these match, one can assume that the file is up to date.
+
+To check the metadata we need to import the packages os (Operationsystem) and time.
+
+.. literalinclude:: examples\timeliness\func1.py
 
 
 
