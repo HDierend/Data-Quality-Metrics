@@ -1,4 +1,5 @@
-# import pandas
+# import os
+# import time
 import os
 import time
 
@@ -13,9 +14,3 @@ def creation_time(filepath: str):
         time: Time the file was created
     """
     return time.ctime(os.path.getmtime(filepath))
-
-
-print(creation_time(r"C:/Users/Datasets/marketing_campaign.csv"))
-
-
-# df = pd.read_csv(r"C:/Users/Datasets/marketing_campaign.csv", delimiter=";")
