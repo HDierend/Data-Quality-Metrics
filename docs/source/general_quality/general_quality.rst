@@ -39,7 +39,24 @@ Datasets
 To test the individual quality metrics, the internet provides free data sets. These data sets can be downloaded from the following link.
 The programming and analysis examples should largely refer to these data.
 
-`Link to datasets <https://towardsdatascience.com/all-the-datasets-you-need-to-practice-data-science-skills-and-make-a-great-portfolio-74f2eb53b38a>`_
+`Datasciene Datasets <https://towardsdatascience.com/all-the-datasets-you-need-to-practice-data-science-skills-and-make-a-great-portfolio-74f2eb53b38a>`_
+
+In order to test one's datascience skills on simple and practical datasets, the author of the blog towardsdatascience.com provides over 50 datasets.
+These can then be integrated into your own IDE or downloaded via the Github page.
+
+`Machine Learning Datasets <https://www.kaggle.com/datasets>`_
+
+Kaggle provides more than 50,000 data sets. This data can be used, for example, as the basis for machine learning algorithms.
+For this purpose, however, it is necessary to check the data beforehand and to change it if necessary.
+
+`Scientific Data <https://www.nature.com/collections/ebaiehhfhg>`_
+
+Nature.com sources data sets from around the world that relate largely to the Corona pandemic.
+
+
+
+
+
 
 ********************
 Libraries
