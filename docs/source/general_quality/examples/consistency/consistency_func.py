@@ -17,14 +17,13 @@ df = pd.DataFrame(dict)
 
 # define function to check for different datatypes
 def check_for_types(dataframe):
-    """_summary_
+    """Check if columns of a dataframe consists of different datatypes
 
     Args:
-        dataframe (_type_): _description_
+        dataframe (pd.dataframe): Input dataframe created from a csv-file
     """
     for dtype, column in zip(dataframe.dtypes, dataframe.columns):
         if dtype == object:
             print(f'{column} contains multiple different datatypes!')
 
-check_for_types(df)
 
