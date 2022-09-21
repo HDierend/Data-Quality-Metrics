@@ -1,7 +1,7 @@
-# importing pandas as pd
+# import pandas
 import pandas as pd
 
-# importing numpy as np
+# import numpy
 import numpy as np
 
 # dictionary of lists
