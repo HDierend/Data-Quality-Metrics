@@ -54,13 +54,10 @@ For this purpose, however, it is necessary to check the data beforehand and to c
 Nature.com sources data sets from around the world that relate largely to the Corona pandemic.
 
 
-
-
-
-
 ********************
 Libraries
 ********************
+
 
 Python
 =========
@@ -76,6 +73,10 @@ This repository contains the core python source scripts and walkthrough tutorial
 
 *Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
 built on top of the Python programming language.*
+
+`NumPy <https://numpy.org/>`_
+
+*NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.*
 
 MATLAB
 =========
