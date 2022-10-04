@@ -47,13 +47,18 @@ The data having lower coefficient of Variation is more consistent and vice - ver
 Checking for inconsistent datatypes
 -----------------------------------------
 
-
-.. note::
-
-   Code Snipped comming soon.
+For the processing and use of data such as time series or numerical values, it is indispensable that data types must not differ. 
+To check a data set for inconsistency, the following function can be used. It provides information about which columns are inconsistent.
 
 
+.. literalinclude:: examples/consistency/consistency_func.py
 
+.. code-block:: pycon
+
+   In [1]: check_for_types(df)
+           
+   Out[2]: column a contains multiple different datatypes!
+           
 
 MATLAB
 =========

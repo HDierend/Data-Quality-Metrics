@@ -19,6 +19,9 @@ Python
 In Python’s Pandas library, Dataframe class provides a member function to find duplicate rows based on all columns or some specific columns.
 It returns a Boolean Series with True value for each duplicated row.
 
+Find ambiguous entries
+----------------------
+
 To check if rows occur multiple time you can use this code snippet which will check if an row is identical to a provious row.
 
 .. literalinclude:: examples/unambiguous/unambiguous_func1.py

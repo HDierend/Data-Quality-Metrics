@@ -1,4 +1,4 @@
-# Create a DataFrame
+#import pandas
 import pandas as pd
 
 data_df = {

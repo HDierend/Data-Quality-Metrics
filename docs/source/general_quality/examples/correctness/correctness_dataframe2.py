@@ -1,6 +1,8 @@
-# import libraries
+# import pandas
 import pandas as pd
+#import matplotlib
 import matplotlib.pyplot as plt
+#import seaborn
 import seaborn as sns
 
 # load dataset

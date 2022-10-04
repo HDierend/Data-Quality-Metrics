@@ -1,3 +1,4 @@
+# import scipy
 from scipy.stats import sem
 
 # define dataset
