@@ -1,11 +1,20 @@
+.. note::
+
+   This project is under active development and not close to beeing finished. First and foremost,
+   this page aims to provide data analysts who deal primarily with field data with an overview of
+   analysis options in order to be able to assess the quality of their data and evaluate it objectively. 
+
+   This page is a small part of the tasks supervised by the NFD4Ing archetype Golo.
+   Golo is largely concerned with field data in a scientific context.
+
+   If you want to know more about NFDI4ING, please visit this page:
+
+   `Link text <https://nfdi4ing.de/de/>`_
+ 
+
 Data Quality Metrics
 ####################################
 
-Data Quality Metrics
-
-.. note::
-
-   This project is under active development.
 
 :ref:`General quality metrics`
 ***************************
