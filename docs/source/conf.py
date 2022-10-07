@@ -35,7 +35,7 @@ html_static_path = ['_static']
 html_logo = "nfdi4ing_logo.png"
 html_theme_options = {
     'logo_only': True,
-    'display_version': False,
+    'display_version': True,
 }
 
 # -- Options for EPUB output
