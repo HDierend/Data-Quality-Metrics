@@ -42,6 +42,9 @@ it is necessary to convert from feet and inches to metres and centimetres.
 
 .. literalinclude:: examples/uniformity/count_inches.py
 
+Now you can apply this function to the whole column and recalculate to meters
+
+
 
 MATLAB
 =========
