@@ -30,7 +30,7 @@ templates_path = ["_templates"]
 
 # -- Options for HTML output
 
-html_theme = 'agogo'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = 'logo_nfdi4ing_cmyk_hoch.svg'
 html_theme_options = {
