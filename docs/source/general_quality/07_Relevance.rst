@@ -20,7 +20,10 @@ Python
 
 Load the needed dataset as showed in the following code snippet:
 
-
+#Function to strip unnecessary information
+#Function to check if column contain Information
+#Inspect data
+# use regex to identify usefull data
 
 MATLAB
 =========
