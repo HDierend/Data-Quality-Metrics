@@ -42,7 +42,6 @@ Install **os** and **time** via command:
 :: 
   pip install os
 
-:: 
   pip install time
 
 

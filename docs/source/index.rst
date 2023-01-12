@@ -42,7 +42,7 @@ In the future:
 
     
 
-Image quality metrics
+`Image quality metrics`
 ***************************
 
   
@@ -64,7 +64,7 @@ Image quality metrics
     image_quality/PIQE
     
 
-Time series
+`Time series`
 ******************
 
 .. toctree::
@@ -74,7 +74,7 @@ Time series
 
     
     
-Pointcloud
+`Pointcloud`
 ***************************
 
 .. toctree::
