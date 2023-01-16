@@ -6,6 +6,10 @@ Data Quality Metrics
 .. note::
 
    This project is under active development.
+
+.. note::
+
+    funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - (442146713)
    
    
 In the future:
