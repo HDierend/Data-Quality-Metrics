@@ -25,7 +25,6 @@ Install **numpy** and **scipy** via command:
 :: 
   pip install numpy
 
-::
   pip install scipy
 
 Using numpy to calculate standard error

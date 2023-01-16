@@ -6,6 +6,10 @@ Data Quality Metrics
 .. note::
 
    This project is under active development.
+
+.. note::
+
+    funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - (442146713)
    
    
 In the future:
@@ -42,7 +46,7 @@ In the future:
 
     
 
-Image quality metrics
+`Image quality metrics`
 ***************************
 
   
@@ -64,7 +68,7 @@ Image quality metrics
     image_quality/PIQE
     
 
-Time series
+`Time series`
 ******************
 
 .. toctree::
@@ -74,7 +78,7 @@ Time series
 
     
     
-Pointcloud
+`Pointcloud`
 ***************************
 
 .. toctree::
