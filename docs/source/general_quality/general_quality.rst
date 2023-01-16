@@ -8,6 +8,9 @@ General quality metrics
 
     Note: Last update 2022_09_06
 
+.. note::
+
+    funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - (442146713)
 ******************
 General
 ******************
