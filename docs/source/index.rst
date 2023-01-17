@@ -9,7 +9,8 @@ Data Quality Metrics
 
 .. note::
 
-    funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) - (442146713)
+    Hauke Dierend und Hendrik Görner möchten sich bei Bund, Ländern und bei der Gemeinsamen Wissenschaftskonferenz (GWK) 
+    für die Förderung und Unterstützung im Rahmen des Konsortiums NFDI4Ing bedanken. Gefördert durch die Deutsche Forschungsgemeinschaft (DFG) - Projektnummer 442146713."
    
    
 In the future:
