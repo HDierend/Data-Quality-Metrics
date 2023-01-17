@@ -47,7 +47,7 @@ In the future:
 
     
 
-`Image quality metrics`
+:ref:`Image quality metrics`
 ***************************
 
   
