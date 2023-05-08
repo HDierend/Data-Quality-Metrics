@@ -5,7 +5,7 @@ Data Quality Metrics
 
 .. note::
 
-   This project is under active development.
+   This project is under active development. Last updated 2023-05-08
 
 .. note::
 
