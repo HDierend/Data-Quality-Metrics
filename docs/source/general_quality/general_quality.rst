@@ -4,10 +4,6 @@
 General quality metrics
 ####################################
 
-.. note::
-
-    Note: Last update 2023-03-17
-
 
 ******************
 General
