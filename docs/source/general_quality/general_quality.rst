@@ -6,7 +6,7 @@ General quality metrics
 
 .. note::
 
-    Note: Last update 2022_09_06
+    Note: Last update 2023_05_08
 
 
 ******************
