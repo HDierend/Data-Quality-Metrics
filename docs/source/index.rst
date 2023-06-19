@@ -9,7 +9,7 @@ Data Quality Metrics
 
 .. note::
 
-    Die Authooren; Hauke Dierend und Hendrik Görner möchten sich bei Bund, Ländern und bei der Gemeinsamen Wissenschaftskonferenz (GWK) 
+    Die Autoren; Hauke Dierend und Hendrik Görner möchten sich bei Bund, Ländern und bei der Gemeinsamen Wissenschaftskonferenz (GWK) 
     für die Förderung und Unterstützung im Rahmen des Konsortiums NFDI4Ing bedanken. Gefördert durch die Deutsche Forschungsgemeinschaft (DFG) - Projektnummer 442146713.
    
     The authors; Hauke Dierend and Hendrik Görner would like to thank the Federal Government and the Heads of Government of the Länder, as well as the Joint Science Conference (GWK),
