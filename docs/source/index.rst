@@ -24,6 +24,12 @@ In the future:
 
 3. FAIR quality metrics
 
+If you would like to make a scientific contribution to this site, feel free to clone the repository and create your own branch with a metric that is relevant to you.
+
+Or send an e-mail with suggestions, wishes and feedback to
+
+hendrik.goerner@tu-dresden.de
+
 :ref:`General quality metrics`
 ***************************
 
