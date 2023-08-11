@@ -41,8 +41,12 @@ This is a good selection criterion to check the relevance.
         3          Calumet Beach  05/28/2014 12:00:00 PM               16.2       1.26  ...         4.0         11.7           5/28/2014 12:00 PM     CalumetBeach201405281200
         4         Montrose Beach  05/28/2014 12:00:00 PM               14.4       3.36  ...         4.0         11.9           5/28/2014 12:00 PM    MontroseBeach201405281200
 
+The following function returns whether a search word is present in the dataset. With this simple function,
+the exploratory part of the data analysis can be discarded if it is clear from the beginning that relevance is not guaranteed.
 
+.. literalinclude:: examples\relevance\relevance_func.py
 
+.. code-block:: pycon
 
 MATLAB
 =========

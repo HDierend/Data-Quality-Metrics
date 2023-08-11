@@ -1,11 +1,11 @@
 import pandas as pd
 
 def check_dataset_relevance(df, keyword):
-    """_summary_
+    """This function gives feedback if a given keywords exists in a dataframe.
 
     Args:
-        df (_type_): _description_
-        keyword (_type_): _description_
+        df (dataframe): dataframe to search in
+        keyword (string): Keyword as criteria to look for in the given dataframe
     """
        
     # Check if the keyword is present in any column of the DataFrame
