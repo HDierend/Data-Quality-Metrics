@@ -1,5 +1,3 @@
-import pandas as pd
-
 def check_dataset_relevance(df, keyword):
     """This function gives feedback if a given keywords exists in a dataframe.
 
