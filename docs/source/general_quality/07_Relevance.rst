@@ -25,7 +25,7 @@ Python
 
 Load the needed dataset as showed in the following code snippet:
 
-.. literalinclude:: examples\relevance\relevance_dataframe.py
+.. literalinclude:: examples/relevance/relevance_dataframe.py
 
 If we look at the data set, we see that the first column contains the name of the individual beaches.
 This is a good selection criterion to check the relevance. 
@@ -44,7 +44,7 @@ This is a good selection criterion to check the relevance.
 The following function returns whether a search word is present in the dataset. With this simple function,
 the exploratory part of the data analysis can be discarded if it is clear from the beginning that relevance is not guaranteed.
 
-.. literalinclude:: examples\relevance\relevance_func.py
+.. literalinclude:: examples/relevance/relevance_func.py
 
 MATLAB
 =========
