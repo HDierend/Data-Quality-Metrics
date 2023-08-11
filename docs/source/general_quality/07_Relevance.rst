@@ -46,8 +46,6 @@ the exploratory part of the data analysis can be discarded if it is clear from t
 
 .. literalinclude:: examples\relevance\relevance_func.py
 
-.. code-block:: pycon
-
 MATLAB
 =========
 
