@@ -46,6 +46,9 @@ the exploratory part of the data analysis can be discarded if it is clear from t
 
 .. literalinclude:: examples/relevance/relevance_func.py
 
+With this function we can, for example, search the beach dataset for specific beaches.
+In our case, we can find out if there is sensor data for Ohio Street Beach.
+
 .. code-block:: pycon
 
    In [1]: check_dataset_relevance(df, keyword="Ohio Street Beach")
