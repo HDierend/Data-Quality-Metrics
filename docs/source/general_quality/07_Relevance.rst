@@ -51,7 +51,7 @@ In our case, we can find out if there is sensor data for Ohio Street Beach.
 
 .. code-block:: pycon
 
-   In [1]: check_dataset_relevance(df, keyword="Ohio Street Beach")
+   In [1]: df["height_new"] = df.apply(lambda row: get_inches(row["Height"]), axis=1)
 
    Out[2]: The dataset is relevant. It contains the keyword 'Ohio Street Beach'.
 

@@ -16,12 +16,15 @@ def get_inches(height):
     """
     m = r.match(height)
 
+    print(int(m.group(1)))
+
     if not m.groups()[1]:
     
-        return float('NaN') if m is None else int(m.group(1))*12
+        return float('NaN') if m is None else int(m.group(1))*30.48
     
     else:
-        return float('NaN') if m is None else int(m.group(1))*12 + float(m.group(2))
+
+        return float('NaN') if m is None else float(m.group(1))*30.48 + float(m.group(2))*2.54
 
 
 # load dataset
