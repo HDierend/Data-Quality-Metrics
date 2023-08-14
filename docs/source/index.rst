@@ -5,7 +5,7 @@ Data Quality Metrics
 
 .. note::
 
-   This project is under active development. Last updated 2023-05-08
+   This project is under active development. Last updated 2023-08-14
 
 .. note::
 
@@ -50,7 +50,7 @@ hendrik.goerner@tu-dresden.de
     general_quality/07_Relevance 
     general_quality/08_Uniformity 
     general_quality/09_Reliability 
-    general_quality/10_Comprehensibility 
+
      
     
 
