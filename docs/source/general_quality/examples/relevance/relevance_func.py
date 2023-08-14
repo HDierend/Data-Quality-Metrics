@@ -13,4 +13,3 @@ def check_dataset_relevance(df, keyword):
         print(f"The dataset is relevant. It contains the keyword '{keyword}'.")
     else:
         print(f"The dataset is not relevant. It does not contain the keyword '{keyword}'.")
-

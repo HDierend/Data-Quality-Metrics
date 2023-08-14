@@ -46,6 +46,16 @@ the exploratory part of the data analysis can be discarded if it is clear from t
 
 .. literalinclude:: examples/relevance/relevance_func.py
 
+.. code-block:: pycon
+
+   In [1]: check_dataset_relevance(df, keyword="Ohio Street Beach")
+
+   Out[2]: The dataset is relevant. It contains the keyword 'Ohio Street Beach'.
+
+Relevance can be understood in many ways. Therefore, the previous example is only a small excerpt of what is possible.
+
+
+
 MATLAB
 =========
 
