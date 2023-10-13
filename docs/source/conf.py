@@ -34,8 +34,8 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 # Set the HTML theme
-html_theme = 'sphinx_rtd_theme'
-html_theme_path = ['docs/_themes']
+html_theme = "sphinx_rtd_theme"
+html_theme_path = ["_themes", ]
 
 templates_path = ['_templates']
 
