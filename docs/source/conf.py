@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = "Data Quality Metrics"
+copyright = "2022, NFDI4Ing"
+author = "TA Golo"
 
 release = '0.1'
 version = '0.1.0'
