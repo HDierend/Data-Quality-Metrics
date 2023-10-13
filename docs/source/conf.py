@@ -35,7 +35,6 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # -- Options for HTML output
-# test
 
 
 html_logo = 'logo_nfdi4ing_cmyk_hoch.svg'
