@@ -1,8 +1,3 @@
-import os
-import sys
-
-# Add the path to the theme's directory
-sys.path.append(os.path.abspath('docs/_themes'))
 
 # Configuration file for the Sphinx documentation builder.
 
@@ -23,7 +18,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_rtd_theme',
+    
     
 ]
 
@@ -34,8 +29,8 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 # Set the HTML theme
-html_theme = "sphinx_rtd_theme"
-html_theme_path = ["_themes", ]
+# html_theme = "sphinx_rtd_theme"
+# html_theme_path = ["_themes", ]
 
 templates_path = ['_templates']
 
