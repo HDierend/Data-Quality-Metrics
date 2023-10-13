@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx_rtd_theme',
     
 ]
 
@@ -25,6 +26,9 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 intersphinx_disabled_domains = ['std']
+
+html_theme = "sphinx_rtd_theme"
+html_theme_path = ["_themes", ]
 
 templates_path = ['_templates']
 
