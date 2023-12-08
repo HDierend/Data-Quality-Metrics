@@ -1,5 +1,3 @@
-.. _General quality metrics:
-
 ####################################
 General quality metrics
 ####################################
@@ -23,7 +21,6 @@ Data sets can be reliably described using the following metrics.
    * `Relevance <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/07_Relevance.html>`_ 
    * `Uniformity <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/08_Uniformity.html>`_
    * `Reliability <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/09_Reliability.html>`_ 
-   * `Comprehensibility <https://data-quality-metrics--21.org.readthedocs.build/en/21/general_quality/10_Comprehensibility.html>`_
 
 Of these eleven criteria, all are used in the rarest cases. Which criteria 
 are used depends on the data set and the purpose of the data.
