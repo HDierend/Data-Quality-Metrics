@@ -5,7 +5,7 @@ Data Quality Metrics
 
 .. note::
 
-   This project is under active development. Last updated 2023-08-14
+   This project is under active development. Last updated 2023-10-13
 
 .. note::
 
@@ -29,6 +29,16 @@ If you would like to make a scientific contribution to this site, feel free to c
 Or send an e-mail with suggestions, wishes and feedback to
 
 hendrik.goerner@tu-dresden.de
+
+:ref:`FAIR quality metrics`
+***************************
+
+
+.. toctree::
+    :maxdepth: 2
+    :caption: FAIR quality metrics
+    :hidden:
+
 
 :ref:`General quality metrics`
 ***************************
@@ -78,8 +88,8 @@ hendrik.goerner@tu-dresden.de
     image_quality/PIQE
     
 
-`Time series`
-******************
+:ref:`Time series`
+***************************
 
 .. toctree::
     :maxdepth: 2
@@ -88,7 +98,7 @@ hendrik.goerner@tu-dresden.de
 
     
     
-`Pointcloud`
+:ref:`Pointcloud`
 ***************************
 
 .. toctree::
